@@ -1,0 +1,27 @@
+.body{
+    background-color: #303030;
+}
+/**/
+.Header1{
+    text-align:center;
+    margin-top: 2%;
+}
+a{
+    text-decoration:none;
+    color:#b00020;
+    font-family: Arial;
+    font-weight: bold;
+    border:solid 2px #b00020;
+    margin:5px;
+    padding:5px;
+    background-color: #181818;
+}
+main{
+    text-align:center;
+    color:#A9A9A9;
+    border:solid 2px #b00020;
+    margin:70px;
+    padding:5px;
+    font-family: Arial;
+    background-color:#181818;
+}
