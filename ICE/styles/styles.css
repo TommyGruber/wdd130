@@ -1,0 +1,36 @@
+/*Reset/over all*/
+body{
+    background-color: maroon;
+    text-align: center;
+}
+header, main, footer, img{
+    width: 30%;
+    margin: 0 auto;
+}
+/*Header*/
+.edu_header{
+    color:bisque;
+    font-size: 350%;
+}
+.edu_quote{
+    color:bisque;
+    font-size: 100%;
+}
+.edu_nel{
+    color:bisque;
+    font-size: 150%;
+}
+/*Main*/
+.list_1{
+    color:bisque;
+    text-align: left;
+    font-weight: bolder;
+}
+.body_quote{
+    color:bisque;
+    font-size: 175%;
+}
+/*Footer*/
+.ending{
+    font-size: 75%;
+}
