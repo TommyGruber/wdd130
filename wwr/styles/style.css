@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Ubuntu:wght@300&display=swap');
+/*this it temporary but the images are just so huge and I wanted to fix it*/
+#hero-img, .card-img, .mountains{
+    width: 600px;
+}
+.social img{
+    width: 50px;
+}
 /*Links*/
 a{
     text-decoration: none;
@@ -6,6 +14,7 @@ nav a{
     text-align: center;
     background-color: #CA4016;
     color: white;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #AE811E;
@@ -13,6 +22,10 @@ nav a:hover{
 .book, .join{
     background-color: #CA4016;
     color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #AE811E;
@@ -22,6 +35,13 @@ nav a:hover{
 /*Body*/
 body{
     background-color: #1D3749;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 #content{
     max-width: 1600px;
@@ -33,6 +53,7 @@ header{
 }
 #logo_link{
     text-align: center;
+    padding-top: 5px;
 }
 .logo{
     width: 80px;
@@ -44,6 +65,9 @@ header{
 .home-title{
     text-align: center;
     color: white;
+    font-family: "Bungee shade";
+    font-size: 2em;
+    margin-top: 10px;
 }
 #hero-box{
     text-align: center;
@@ -63,22 +87,40 @@ header{
     height: 725px;
     background-color: #25310C;
 }
+.card-img{
+    border: 10px solid black;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+main section img{
+    box-sizing: border-box;
+}
 .msg{
     background-color: #25310C;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: white;
 }
 .msg p{
     color: white;
+    padding-bottom: 15px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 /*Footer*/
 footer{
     background-color: #25310C;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img{
+    padding-top: 15px;
 }
 footer a{
     color: white;
