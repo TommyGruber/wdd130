@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Ubuntu:wght@300&display=swap');
 /*this it temporary but the images are just so huge and I wanted to fix it*/
 #hero-img, .card-img, .mountains{
-    width: 600px;
+    width: 100%;
 }
 .social img{
     width: 50px;
