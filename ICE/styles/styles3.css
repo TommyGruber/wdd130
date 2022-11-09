@@ -1,0 +1,16 @@
+/*Div & All*/
+body{
+    background: black;
+}
+#flier{
+    text-align: center;
+}
+/*Header*/
+#main_img{
+    width: 500px;
+}
+/*Main*/
+main{
+    background: white;
+}
+/*Footer*/
